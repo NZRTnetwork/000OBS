@@ -1,0 +1,19 @@
+# Obsidian workspace state — user-specific, don't commit
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Keep plugin list and appearance settings (useful to share)
+# .obsidian/community-plugins.json  ← intentionally not ignored
+# .obsidian/app.json                ← intentionally not ignored
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / credentials
+.env
+*.env.local
+CREDS/
