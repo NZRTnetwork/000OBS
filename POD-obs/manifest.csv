@@ -1,0 +1,11 @@
+filename,slug,title,type,duration_sec,size_bytes,srt,state,youtube_id
+community-plugins.mp3,community-plugins,Community Plugins,mp3,286.0,1716048,,pending,
+core-plugins.mp3,core-plugins,Core Plugins,mp3,271.2,1627488,,pending,
+editor-modes.mp3,editor-modes,Editor Modes,mp3,231.7,1390464,,pending,
+frontmatter-properties.mp3,frontmatter-properties,Frontmatter Properties,mp3,277.2,1663200,,pending,
+graph-view.mp3,graph-view,Graph View,mp3,248.0,1488240,,pending,
+obsidian-overview.mp3,obsidian-overview,Obsidian Overview,mp3,279.1,1674720,,pending,
+settings-overview.mp3,settings-overview,Settings Overview,mp3,254.7,1528272,,pending,
+tags.mp3,tags,Tags,mp3,200.4,1202256,,pending,
+vaults.mp3,vaults,Vaults,mp3,265.2,1591056,,pending,
+wikilinks-backlinks.mp3,wikilinks-backlinks,Wikilinks Backlinks,mp3,253.8,1523088,,pending,

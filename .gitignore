@@ -1,0 +1,8 @@
+﻿
+# Podcast media - YouTube hosts these; GitHub keeps manifest + captions only
+POD-obs/*.mp3
+POD-obs/*.mp4
+POD-obs/cards/
+POD-obs/mp4/
+!POD-obs/manifest.csv
+!POD-obs/*.srt
