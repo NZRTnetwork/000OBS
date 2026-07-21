@@ -6,3 +6,6 @@ POD-obs/cards/
 POD-obs/mp4/
 !POD-obs/manifest.csv
 !POD-obs/*.srt
+
+__pycache__/
+*.pyc
