@@ -1,13 +1,13 @@
 r"""
-vault_note.py — OBS-TSK-001. Create or revise a note/SOP in the VLT-SAI vault.
+vault-note.py — OBS-TSK-001. Create or revise a note/SOP in the VLT-SAI vault.
 
 Writes UTF-8 markdown to a path under C:\VLT-SAI. 'create' refuses to overwrite; 'update'
 requires the file to already exist. Self-verifies the file on disk; prints one RESULT: line.
 Exit 0 ok / 2 bad args / non-zero fail.
 
 Usage:
-    python vault_note.py --action update --path SYS\...\win.md --content-file new.md
-    python vault_note.py --action create --path SYS\...\newnote.md --content-file body.md
+    python vault-note.py --action update --path SYS\...\win.md --content-file new.md
+    python vault-note.py --action create --path SYS\...\newnote.md --content-file body.md
 """
 import argparse
 import os

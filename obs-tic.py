@@ -1,8 +1,8 @@
 """
-create_obs_ticket.py — create an Obsidian vault task ticket assigned to dai.
+obs-tic.py — create an Obsidian vault task ticket assigned to dai.
 Hardcoded: type=000OBS, category=DAI, tag=281.
 
-Usage: python create_obs_ticket.py --subject "Update NCS SOPs in vault" [--message "..."] [--project-id N] [--tag-id N]
+Usage: python obs-tic.py --subject "Update NCS SOPs in vault" [--message "..."] [--project-id N] [--tag-id N]
 Auth: set DOLIBARR_API_KEY env var (xc Dolibarr API key)
 """
 import argparse
@@ -12,7 +12,7 @@ import json
 import urllib.request
 import urllib.error
 from dotenv import load_dotenv
-load_dotenv(dotenv_path=r"C:\RPO-SAI\SYS\PLA\WIN\FRA\FAI\ORG\RPO-NZT\OPS\RPO-agt\SET\create_agents\.env")
+load_dotenv(dotenv_path=r"C:\RPO-SAI\SYS\PLA\WIN\FRA\FAI\ORG\RPO-NZT\OPS\RPO-agt\SET\ENV\.env")
 
 DOL_HELPER_URL    = "https://nzrtnetwork.com/dol-sql-helper/"
 DOL_HELPER_SECRET = "nzrt_f7a2c849e3d561b0"
