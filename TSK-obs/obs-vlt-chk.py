@@ -1,12 +1,12 @@
 r"""
-audit-vault.py — OBS-TSK-003. Lightweight SAI structure check of the VLT-SAI vault.
+obs-vlt-chk.py — OBS-TSK-003. Lightweight SAI structure check of the VLT-SAI vault.
 
 Heuristic aid, not authoritative: walks C:\VLT-SAI and flags folders that hold NO markdown
 summary file (a SAI node should carry one lowercase summary .md). Writes a CSV report into
 ema's Shared/Dolibarr_EDM folder. Read-only against the vault. Prints one RESULT: line.
 
 Usage:
-    python audit-vault.py
+    python obs-vlt-chk.py
 
 Excludes tooling dirs (.git, node_modules, .obsidian, __pycache__).
 """

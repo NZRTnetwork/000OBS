@@ -1,12 +1,12 @@
 r"""
-create-wiki-note.py — OBS-TSK-002. Author a new wiki note with SAI frontmatter.
+obs-not-crt.py — OBS-TSK-002. Author a new wiki note with SAI frontmatter.
 
 Builds the frontmatter block (tags, created date, type) the SAI conventions require, prepends
 it to the body, and writes under C:\VLT-SAI. Refuses to overwrite. Self-verifies; prints one
 RESULT: line. Exit 0 ok / 2 bad args / non-zero fail.
 
 Usage:
-    python create-wiki-note.py --path SYS\...\WIK\VLT-app\newthing.md \
+    python obs-not-crt.py --path SYS\...\WIK\VLT-app\newthing.md \
         --title "New Thing" --tags nzrt,000DOL --content-file body.md
 """
 import argparse
@@ -38,7 +38,7 @@ def main():
     if not os.path.abspath(target).startswith(os.path.abspath(VAULT)):
         fail("path escapes the vault root", 2)
     if os.path.isfile(target):
-        fail(f"already exists (use vault-note.py --action update): {target}", 2)
+        fail(f"already exists (use obs-not-upd.py --action update): {target}", 2)
 
     tags = [t.strip() for t in args.tags.split(",") if t.strip()]
     body = open(args.content_file, encoding="utf-8").read()
