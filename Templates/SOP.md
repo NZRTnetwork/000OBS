@@ -11,7 +11,7 @@ related: []
 # SOP — {{title}}
 
 **Owner:** [role code]
-**System:** [service code]
+**System:** [ref code]
 **Frequency:** [daily/weekly/as-needed]
 
 ---

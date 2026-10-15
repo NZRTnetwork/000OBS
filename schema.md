@@ -1,6 +1,6 @@
 # Vault Schema
 
-Master reference for frontmatter, service codes, role codes, note types, and naming conventions.
+Master reference for frontmatter, ref codes, role codes, note types, and naming conventions.
 
 ---
 
@@ -10,7 +10,7 @@ Required on every note:
 
 ```yaml
 ---
-tags: [<domain-tag>, <org-tag>, <service-code>, <note-type>]
+tags: [<domain-tag>, <org-tag>, <ref-code>, <note-type>]
 aliases: [Human readable name, Alternative name]
 role: <role-code>
 created: YYYY-MM-DD
@@ -25,7 +25,7 @@ related:
 
 | Field | Required | Values |
 |-------|---------|--------|
-| `tags` | Yes | Array — include org tag, service code, note type at minimum |
+| `tags` | Yes | Array — include org tag, ref code, note type at minimum |
 | `aliases` | Yes | Array — human readable names for search |
 | `role` | Yes | Single role code — who owns this note |
 | `created` | Yes | ISO date YYYY-MM-DD |
@@ -56,7 +56,7 @@ related:
 
 ---
 
-## Service Codes
+## Ref Codes
 
 One per note. Tag the note to the system it belongs to.
 

@@ -10,7 +10,7 @@ related: []
 
 # [Your Org Name] — Master Vault
 
-Central navigation hub for all knowledge domains. Each domain has its own HOME.md, folder structure, service code, and role assignment.
+Central navigation hub for all knowledge domains. Each domain has its own HOME.md, folder structure, ref code, and role assignment.
 
 ---
 
@@ -39,7 +39,7 @@ Central navigation hub for all knowledge domains. Each domain has its own HOME.m
 
 ---
 
-## Service Code System
+## Ref Code System
 
 | Code | System |
 |------|--------|

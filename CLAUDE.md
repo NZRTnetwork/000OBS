@@ -29,7 +29,7 @@ This is the [Your Org Name] knowledge vault — the master wiki, architecture re
 ### Frontmatter (required on all notes)
 ```yaml
 ---
-tags: [<domain-tag>, <org-tag>, <service-code>, <note-type>]
+tags: [<domain-tag>, <org-tag>, <ref-code>, <note-type>]
 aliases: [<human readable names>]
 role: <role-code>
 created: YYYY-MM-DD
@@ -42,7 +42,7 @@ related:
 
 Full schema: `schema.md`
 
-### Service Codes
+### Ref Codes
 `000MST` `000DOL` `000GIT` `000LLM` `000NCL` `000WEB` `000INF` `000K8S`
 
 ### Role Codes

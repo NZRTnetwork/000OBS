@@ -10,7 +10,7 @@ created: YYYY-MM-DD
 status: active
 type: MOC
 related:
-  - "[[GitHub Repos/obsidian-business-vault-template/01 - Example Domain/HOME|Master Vault]]"
+  - "[[01 - Example Domain/HOME|Master Vault]]"
 ---
 
 # Example Domain
@@ -20,7 +20,7 @@ This folder demonstrates the domain structure pattern. Replace "Example Domain" 
 Each domain gets:
 - Its own `HOME.md` (this file) as the entry point
 - Numbered subfolders: `01 - Overview/`, `02 - Guides/`, etc.
-- A consistent service code tag (`000XXX`) across all notes
+- A consistent ref code tag (`000XXX`) across all notes
 - A role code marking who owns it
 
 ---
@@ -36,7 +36,7 @@ Each domain gets:
 
 ## Related Domains
 
-- [[GitHub Repos/obsidian-business-vault-template/01 - Example Domain/HOME|Master Vault]]
+- [[01 - Example Domain/HOME|Master Vault]]
 
 ---
 
